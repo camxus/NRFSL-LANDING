@@ -65,7 +65,7 @@ export default function Hero() {
 
             {/* Mobile CTA buttons */}
             <div className="mt-6 flex flex-wrap justify-center gap-3 md:hidden">
-              <Link href="https://app.diaspora-wallet.com/signup" className="px-6 py-4 bg-gradient-to-r from-primary to-secondary text-white rounded-lg hover:shadow-lg transition">
+              <Link href="https://app.diaspora-wallet.com/sign-up" className="px-6 py-4 bg-gradient-to-r from-primary to-secondary text-white rounded-lg hover:shadow-lg transition">
                 Sign Up Now
               </Link>
             </div>
@@ -125,7 +125,7 @@ export default function Hero() {
 
           {/* Desktop CTA */}
           <div className="mt-6 flex justify-center gap-4">
-            <Link href="https://app.diaspora-wallet.com/signup" className="px-6 py-4 bg-gradient-to-r from-primary to-secondary text-white rounded-lg hover:shadow-lg transition">
+            <Link href="https://app.diaspora-wallet.com/sign-up" className="px-6 py-4 bg-gradient-to-r from-primary to-secondary text-white rounded-lg hover:shadow-lg transition">
               Sign Up Now
             </Link>
           </div>

@@ -50,7 +50,7 @@ export default function Navbar() {
             <Link href="https://app.diaspora-wallet.com" className="px-5 py-2 text-primary border border-primary rounded-lg hover:bg-primary hover:text-white transition text-sm">
               Login
             </Link>
-            <Link href="https://app.diaspora-wallet.com/signup" className="px-5 py-2 bg-gradient-to-r from-primary to-secondary text-white rounded-lg hover:shadow-lg transition text-sm">
+            <Link href="https://app.diaspora-wallet.com/sign-up" className="px-5 py-2 bg-gradient-to-r from-primary to-secondary text-white rounded-lg hover:shadow-lg transition text-sm">
               Sign up
             </Link>
           </div>
@@ -82,7 +82,7 @@ export default function Navbar() {
               <Link href="https://app.diaspora-wallet.com" className="flex-1 text-center px-4 py-2 text-primary border border-primary rounded-lg hover:bg-primary hover:text-white transition text-sm">
                 Login
               </Link>
-              <Link href="https://app.diaspora-wallet.com/signup" className="flex-1 text-center px-4 py-2 bg-gradient-to-r from-primary to-secondary text-white rounded-lg hover:shadow-lg transition text-sm">
+              <Link href="https://app.diaspora-wallet.com/sign-up" className="flex-1 text-center px-4 py-2 bg-gradient-to-r from-primary to-secondary text-white rounded-lg hover:shadow-lg transition text-sm">
                 Sign up
               </Link>
             </div>
