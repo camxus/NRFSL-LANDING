@@ -7,7 +7,7 @@ import Image from "next/image"
 import Link from 'next/link'
 
 const services = [
-  { href: '#transfer', icon: ArrowRightLeft, label: 'Money Transfer', color: 'from-primary to-secondary', highlight: true },
+  { href: '#transfer', icon: ArrowRightLeft, label: 'Money Transfer', color: 'from-primary to-secondary', highlight: false },
   { href: '#card', icon: CreditCard, label: 'Get Your Bank Card', color: 'from-blue-500 to-blue-600' },
   { href: '#bank', icon: Landmark, label: 'Get Your Bank Account', color: 'from-green-500 to-green-600' },
   { href: '#bvn', icon: Fingerprint, label: 'Get Your BVN', color: 'from-teal-500 to-teal-600' },
@@ -72,8 +72,14 @@ export default function Hero() {
 
             {/* Mobile hero image */}
             <div className="mt-6 md:hidden">
-              <div className="w-full max-w-lg mx-auto rounded-2xl shadow-2xl bg-gradient-to-br from-primary/20 to-secondary/20 h-48 flex items-center justify-center text-primary font-bold text-lg">
-                Diaspora Wallet Services
+              <div className="relative w-full max-w-sm h-72 rounded-2xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-500">
+                <Image
+                  src="/hero.jpg"
+                  alt="Global Connections Through Diaspora Remittance"
+                  fill
+                  className="object-cover"
+                  priority
+                />
               </div>
             </div>
           </div>
