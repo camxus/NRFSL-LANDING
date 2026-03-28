@@ -56,13 +56,22 @@ export default function Navbar() {
           </div>
 
           {/* Mobile hamburger */}
-          <button
-            className="md:hidden p-2"
-            onClick={() => setMobileOpen(!mobileOpen)}
-            aria-label="Toggle menu"
-          >
-            {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
+          {/* Mobile: Login, Sign up + hamburger */}
+          <div className="md:hidden flex items-center gap-2">
+            <Link href="https://app.diaspora-wallet.com" className="px-3 py-1.5 text-primary border border-primary rounded-lg hover:bg-primary hover:text-white transition text-sm">
+              Login
+            </Link>
+            <Link href="https://app.diaspora-wallet.com/sign-up" className="px-3 py-1.5 bg-gradient-to-r from-primary to-secondary text-white rounded-lg hover:shadow-lg transition text-sm">
+              Sign up
+            </Link>
+            <button
+              className="p-2"
+              onClick={() => setMobileOpen(!mobileOpen)}
+              aria-label="Toggle menu"
+            >
+              {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </button>
+          </div>
         </div>
 
         {/* Mobile Menu */}
